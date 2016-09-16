@@ -7,6 +7,6 @@ var corsTestWithCrossoriginAtrr = (function() {
     }
 
     return {
-        corsErrorWithCrossoriginAttr: sampleCorsFunction
+        createCORSError: sampleCorsFunction
     };
 }());
