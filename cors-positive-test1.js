@@ -13,8 +13,8 @@ var corsTestWithCrossoriginAtrr = (function() {
         var b = new Array(-1); //range error
     }
 
-    function stackErrorFunc() {
-        file1.stackErrorFunc();
+    function stackErrorFunc(corsError, crossOriginAttr) {
+        file1.stackErrorFunc(corsError, crossOriginAttr);
     }
 
     function typeErrorFunc() {
